@@ -2,7 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const Product = require("./models/product.model.js");
 const productRoute = require("./routes/product.route.js");
-const app = express();
+const app = express(); //create a new webserver application
 
 //Middleware to parse JSON requests
 app.use(express.json());
